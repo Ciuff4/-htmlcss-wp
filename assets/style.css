@@ -1,0 +1,100 @@
+/* GENERAL */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+body{
+    width: 80%;
+    margin: 0px auto;
+    font-family:  ;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+/* HEADER */
+
+header> div{
+    margin-bottom: 20px;
+}
+
+.head-hdr{
+    background-color: #C268C3;
+    height: 100px;
+}
+
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #868686;
+    padding: 10px 5px
+}
+
+.jumbotron{
+    background-image: url(/IMG_20210204_163604.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.jumbotron .overlay{
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(131, 101, 161, 0.1);
+}
+
+.jumbotron .overlay-text{
+    padding-top: 20%;
+}
+
+/* MAIN */
+
+main{
+    background-color: #0186FE;
+}
+
+main .mn-title{
+    height: 60px;
+    background-color: #ABCFE7;
+    margin-bottom: 15px;
+}
+
+.aside{
+    width: 18%;
+    background-color: #ABCFE7;
+}
+
+.section{
+    width: 60%;
+    background-color: blue;
+    margin: 0 2% ;
+}
+
+.col{
+    float: left;
+    height: 800px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #8800FE;
+    height: 40px;
+    margin-top: 20px;
+}
