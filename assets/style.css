@@ -49,11 +49,11 @@ a:hover{
 }
 
 .jumbotron{
-    background-image: url(/IMG_20210204_163604.jpg);
+    background-image: url(./img/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    height: 500px;
     border-radius: 10px;
 }
 
@@ -64,7 +64,9 @@ a:hover{
 }
 
 .jumbotron .overlay-text{
-    padding-top: 20%;
+    padding-top: 30%;
+    padding-left: 40px;
+    padding-right: 40%;
 }
 
 /* MAIN */
