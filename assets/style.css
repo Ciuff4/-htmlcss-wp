@@ -14,7 +14,7 @@
 body{
     width: 80%;
     margin: 0px auto;
-    font-family:  ;
+    font-family: "montserrat";
 }
 
 .mb-20{
@@ -71,13 +71,8 @@ a:hover{
 
 /* MAIN */
 
-main{
-    background-color: #0186FE;
-}
-
 main .mn-title{
     height: 60px;
-    background-color: #ABCFE7;
     margin-bottom: 15px;
 }
 
@@ -97,6 +92,13 @@ main .mn-title{
     height: 800px;
 }
 
+.box-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    border-radius: 10px;
+}
 /* FOOTER */
 
 footer{
