@@ -27,11 +27,9 @@ header> div{
     margin-bottom: 20px;
 }
 
-.head-hdr{
-    background-color: #C268C3;
-    height: 100px;
+.logo img{
+    width: 10%;
 }
-
 
 ul li{
     list-style: none;
@@ -42,6 +40,12 @@ a{
     text-decoration: none;
     color: #868686;
     padding: 10px 5px
+}
+
+a:hover{
+    color: darkmagenta;
+    background-color: aquamarine;
+    border-radius: 10px;
 }
 
 .jumbotron{
