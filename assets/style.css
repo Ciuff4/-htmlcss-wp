@@ -14,7 +14,7 @@
 body{
     width: 80%;
     margin: 0px auto;
-    font-family: "montserrat";
+    font-family: 'Montserrat', sans-serif;
 }
 
 .mb-20{
@@ -29,6 +29,10 @@ header> div{
 
 .logo img{
     width: 10%;
+}
+
+.black-line{
+    font-size: 50px;
 }
 
 ul li{
@@ -57,11 +61,13 @@ a:hover{
     border-radius: 10px;
 }
 
-.jumbotron .overlay{
+.overlay{
     height: 100%;
-    overflow: hidden;
     background-color: rgba(131, 101, 161, 0.1);
+    overflow: hidden;
+    border-radius: 10px;
 }
+
 
 .jumbotron .overlay-text{
     padding-top: 30%;
@@ -78,18 +84,15 @@ main .mn-title{
 
 .aside{
     width: 18%;
-    background-color: #ABCFE7;
 }
 
 .section{
     width: 60%;
-    background-color: blue;
     margin: 0 2% ;
 }
 
 .col{
     float: left;
-    height: 800px;
 }
 
 .box-img{
@@ -98,11 +101,34 @@ main .mn-title{
     background-position: center;
     height: 200px;
     border-radius: 10px;
+
 }
+
+.left-img{
+    background-image: url(./img/img-1.jpg);
+    
+}
+
+.center-img{
+    background-image: url(./img/banner-2.jpg);
+    
+}
+
+.right-img{
+    background-image: url(./img/img-3.jpg);
+}
+
+h5{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
 /* FOOTER */
 
 footer{
-    background-color: #8800FE;
-    height: 40px;
     margin-top: 20px;
+    text-align: center;
+}
+.heart{
+    color: red;
 }
