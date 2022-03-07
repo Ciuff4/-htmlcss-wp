@@ -28,11 +28,17 @@ header> div{
 }
 
 .logo img{
-    width: 10%;
+    width: 150px;
+}
+
+.logo{
+    border-right: solid 1px lightgray;
+    width: 160px;
 }
 
 .black-line{
     font-size: 50px;
+    vertical-align: top;
 }
 
 ul li{
@@ -75,11 +81,19 @@ a:hover{
     padding-right: 40%;
 }
 
+.ovrly-title{
+    font-size: 2rem;
+}
+
 /* MAIN */
 
 main .mn-title{
     height: 60px;
     margin-bottom: 15px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .aside{
@@ -101,7 +115,6 @@ main .mn-title{
     background-position: center;
     height: 200px;
     border-radius: 10px;
-
 }
 
 .left-img{
